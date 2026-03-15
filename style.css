@@ -1,0 +1,48 @@
+.greet{
+  background-color: antiquewhite;
+  padding: 10px;
+  text-align: center;
+  border-radius: 100px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  align-items: center;
+  gap: 20px;
+  padding-top: 150px;
+}
+.Red,.Blue, .Green, .Yellow{
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 10px;
+}
+.name{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: lightblue;
+  border-radius: 16px;
+  font-size: 12px;
+}
